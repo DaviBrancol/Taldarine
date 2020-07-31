@@ -44,6 +44,16 @@ jQuery(document).ready(function ($) {
         prevArrow: '<div class="slick-arrow slick-arrow-left"><i class="fa fa-chevron-left"></i></div>',
         nextArrow: '<div class="slick-arrow slick-arrow-right"><i class="fa fa-chevron-right"></i></div>',
       })
+    } else if (id === 'slick-medium') {
+      $('.slick-medium').slick({
+        dots: true,
+        infinite: true,
+        center: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        prevArrow: '<div class="slick-arrow slick-arrow-left"><i class="fa fa-chevron-left"></i></div>',
+        nextArrow: '<div class="slick-arrow slick-arrow-right"><i class="fa fa-chevron-right"></i></div>',
+      })
     }
   }
 
